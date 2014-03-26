@@ -1,0 +1,12 @@
+defaults: &defaults
+  input_file_full_path: /tmp/some.csv
+  summary_email: rakshassa@gmail.com
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults	
